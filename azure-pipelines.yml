@@ -6,7 +6,8 @@
 trigger:
 - main
 
-pool: DevOps-Server
+pool: default
+- Agent.Name: DevOps-Server
   
 steps:
 - script: echo Hello, world!
